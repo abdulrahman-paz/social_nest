@@ -9,7 +9,7 @@ import { MailModule } from './mail/mail.module';
 import { FollowModule } from './follow/follow.module';
 import { PostModule } from './post/post.module';
 import { NotificationsModule } from './notification/notification.module';
-// import { FeedModule } from './feed/feed.module';
+import { FeedModule } from './feed/feed.module';
 
 @Module({
   imports: [
@@ -31,7 +31,7 @@ import { NotificationsModule } from './notification/notification.module';
     FollowModule,
     PostModule,
     NotificationsModule,
-    // FeedModule
+    FeedModule
   ],
   controllers: [AppController],
   providers: [AppService],
